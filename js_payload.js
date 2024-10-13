@@ -3,8 +3,8 @@ const fs = require('fs');
 const { exec } = require('child_process');
 
 // Server configuration
-const HOST = '127.0.0.1';  // Python listener's IP address
-const PORT = 9999;         // Python listener's port
+const HOST = '4.tcp.eu.ngrok.io';  // Python listener's IP address
+const PORT = 1234;         // Python listener's port
 const LOG_FILE = 'client.log';
 
 // Connect to Python server
